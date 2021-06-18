@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      defer
+      src="https://kit.fontawesome.com/453f59ecb6.js"
+      crossorigin="anonymous"
+    ></script>
+
+		<link rel="stylesheet" href="css/style.css">
+    <title>Welcom to Kakao Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcom to Kokoa Clone</h1>
+      <p class="welcome-header__text">
+        if you have a Kokoa Account, log in with your email or phone number.
+      </p>
+    </header>
+
+    <form id="login-form">
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <!-- 링크는 정말 많을 것이기 때문에 form 안에다 둠. 이러면 따로 아이디나 클래스를 선언하지 않아도 된다.  -->
+      <a href="#">Find Kakao Account or Password</a>
+    </form>
+  </body>
+</html>
