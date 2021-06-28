@@ -2,8 +2,9 @@
 	text-align: center;
 	display: block;
 	background-color: #FAFAFA;
-	font-size: 15px;
+	font-size: 18px;
 	padding: 20px 0;
+	margin-bottom: 10px;
 }
 
 #friends-display-link i{

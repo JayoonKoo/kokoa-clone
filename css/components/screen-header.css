@@ -1,6 +1,6 @@
 .screen-header {
 	display: flex;
-	padding: 25px;
+	padding: var(--horizontal-space);
 	padding-top: 44px;
 	justify-content: space-between;
 	align-items: center;
@@ -15,3 +15,7 @@
 	margin-left: 25px;
 	cursor: pointer;
 }	
+
+.friends-screen {
+	padding: 0 var(--horizontal-space);
+}
