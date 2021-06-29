@@ -9,3 +9,18 @@
 	font-weight: 600;
 	color: #fff;
 }
+
+.screen-header__cog-cotainer {
+	position: relative;
+}
+
+.badge--small {
+	display: block;
+	width: 6px;
+	height: 6px;
+	border-radius: 3px;
+	background-color: tomato;
+	position:absolute;
+	right: -8px;
+	top: -8px;
+}

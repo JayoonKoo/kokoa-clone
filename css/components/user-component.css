@@ -2,12 +2,18 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	padding: 10px 0;
+	cursor: pointer;
+	transition: background-color .2s;
 }
 
+.user-component:hover {
+	background-color: rgba(0, 0, 0, 0.02);
+}
 .friends-screen__channel {
 	margin-top: 25px;
 	padding-top: 15px;
-	border-top: 1px solid rgba(0,0,0,.2);
+	border-top: var(--main-border);
 }
 
 .friends-screen__channel--header {
